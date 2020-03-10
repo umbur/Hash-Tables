@@ -33,7 +33,7 @@ class HashTable:
         hash = 5381
         for letter in key:
             hash = (hash * 33) + ord(letter)
-        return hash
+        return hash 
         '''
         Hash an arbitrary key using DJB2 hash
         OPTIONAL STRETCH: Research and implement DJB2
