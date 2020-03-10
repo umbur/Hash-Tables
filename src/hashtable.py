@@ -65,7 +65,7 @@ class HashTable:
             self.storage[self._hash_mod(key)] = LinkedPair(key, value)
         '''
         Store the value with the given key.
-        Hash collisions should be handled with Linked List Chaining.
+
         Fill this in.
         '''
         # pass
