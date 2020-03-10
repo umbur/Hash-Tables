@@ -29,7 +29,7 @@ class HashTable:
         return hash
 
 
-    def _hash_djb2(self, key):
+    def _hash_djb2(self, key): 
         hash = 5381
         for letter in key:
             hash = (hash * 33) + ord(letter)
